@@ -7,7 +7,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/trailer.mp4' autoPlay loop muted />
+      <video src='https://res.cloudinary.com/wprodigy/video/upload/v1649089295/Assets/trailer_rizhod.mp4' autoPlay loop muted />
       <div className="Headings">
         <h1>WP!</h1>
        <h2> ONE STOP FOR <span style={{ fontWeight: 'bold' }}>
