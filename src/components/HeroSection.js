@@ -1,14 +1,15 @@
 import React from "react";
-// import '../App.css';
 import { Typewriter } from "react-simple-typewriter";
 import { Button } from "./Button";
 import "./HeroSection.css";
+//import { Link } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function HeroSection() {
   return (
-    <div className="hero-container">
+    <div className="hero-container" id="home">
       <video
-        src="https://res.cloudinary.com/wprodigy/video/upload/v1649089295/Assets/trailer_rizhod.mp4"
+        src="https://res.cloudinary.com/wprodigy/video/upload/q_50/v1649089295/Assets/trailer_rizhod.mp4"
         autoPlay
         loop
         muted
@@ -39,18 +40,27 @@ function HeroSection() {
       </div>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
-        <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
+        <Link
+          activeClass="active"
+          to="services"
+          className="btn-mobile"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
         >
-          GET STARTED
-        </Button>
+          <Button
+            className="btns"
+            buttonStyle="btn--primary"
+            buttonSize="btn--large"
+          >
+            GET STARTED
+          </Button>
+        </Link>
         <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
-          onClick={console.log("hey")}
         >
           WATCH TRAILER <i className="far fa-play-circle" />
         </Button>
