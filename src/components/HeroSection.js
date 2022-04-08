@@ -20,8 +20,8 @@ function HeroSection() {
   };
   return (
     <div className="hero-container" id="home">
-      <video
-        src="https://res.cloudinary.com/wprodigy/video/upload/q_50/v1649089295/Assets/trailer_rizhod.mp4"
+      <img
+        src="https://res.cloudinary.com/wprodigy/image/upload/v1649429136/Assets/hero_jzyl3u.jpg"
         autoPlay
         loop
         muted
