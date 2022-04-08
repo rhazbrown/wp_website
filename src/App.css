@@ -24,7 +24,7 @@ html {
 }
 
 .about {
-  background-image: url("/public/images/img-1.svg");
+  background-image: url("https://res.cloudinary.com/wprodigy/image/upload/v1649435987/Assets/img-5_qvj6p8.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@ html {
 }
 
 .design {
-  background-image: url("/public/images/img-2.svg");
+  background-image: url("https://res.cloudinary.com/wprodigy/image/upload/v1649435774/Assets/img-3_emjbkf.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ html {
 }
 
 .pricing {
-  background-image: url("/public/images/img-4.svg");
+  background-image: url("https://res.cloudinary.com/wprodigy/image/upload/v1649435774/Assets/img-4_ovjn3x.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ html {
 }
 
 .study {
-  background-image: url("/public/images/img-5.svg");
+  background-image: url("https://res.cloudinary.com/wprodigy/image/upload/v1649435774/Assets/img-1_smuxah.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

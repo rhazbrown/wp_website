@@ -21,7 +21,7 @@ function HeroSection() {
   return (
     <div className="hero-container" id="home">
       <img
-        src="https://res.cloudinary.com/wprodigy/image/upload/v1649429136/Assets/hero_jzyl3u.jpg"
+        src="https://res.cloudinary.com/wprodigy/image/upload/v1649435369/Assets/hero_fwk24a.webp"
         autoPlay
         loop
         muted
