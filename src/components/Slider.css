@@ -1,0 +1,36 @@
+.swiper {
+  min-height: 50vh;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  height: 100%;
+  width: 100%;
+}
+.swiper-check > h1 {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+:root {
+  --swiper-theme-color: #ff9f0e;
+}
+.swiper-wrapper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

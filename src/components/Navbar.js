@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
-import { Link } from "react-router-dom";
-import { animateScroll as scroll } from "react-scroll";
+import { Link as Link1 } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./Navbar.css";
 
 function Navbar() {
@@ -40,29 +40,37 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to=" " className="nav-links" onClick={scrollToTop}>
+              <Link1 to=" " className="nav-links" onClick={scrollToTop}>
                 Home
-              </Link>
+              </Link1>
             </li>
             <li className="nav-item">
-              <Link to="/About" className="nav-links" onClick={closeMobileMenu}>
+              <Link1
+                to="/About"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 About
-              </Link>
+              </Link1>
             </li>
             <li className="nav-item">
-              <Link
+              <Link1
                 to="/Pricing"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Pricing
-              </Link>
+              </Link1>
             </li>
             <li className="nav-item">
               <Link
-                to="/Portfolio"
+                to="Here"
+                spy={true}
                 className="nav-links"
                 onClick={closeMobileMenu}
+                smooth={true}
+                offset={-80}
+                duration={500}
               >
                 Portfolio
               </Link>
@@ -77,31 +85,31 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
+              <Link1
                 to="/Study-Abroad"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Study
-              </Link>
+              </Link1>
             </li>
             <li className="nav-item">
-              <Link
+              <Link1
                 to="/Get-a-design"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Get a design
-              </Link>
+              </Link1>
             </li>
             <li>
-              <Link
+              <Link1
                 to="/Sign-Up"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
                 Sign Up
-              </Link>
+              </Link1>
             </li>
           </ul>
           <Link to="/Sign-Up " className="btn-mobile">
