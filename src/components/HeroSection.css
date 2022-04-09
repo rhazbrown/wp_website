@@ -1,3 +1,13 @@
+.OVERLAY_STYLES {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  transform: translate(1%, 15%);
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
 .hero-container > img {
   object-fit: cover;
   width: 100%;
@@ -109,7 +119,7 @@ modal__bg {
   -ms-transition: opacity 0.3s ease-out;
   -o-transition: opacity 0.3s ease-out;
   transition: opacity 0.3s ease-out;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .modal__align {
@@ -130,6 +140,7 @@ modal__bg {
   background: transparent;
   color: #000;
   margin: 0rem 4rem;
+  align-items: center;
 }
 
 .modal__close {
@@ -141,6 +152,7 @@ modal__bg {
   width: 32px;
   height: 32px;
   padding: 0;
+  transform: translate(1260%, 15%);
 }
 
 .modal__video-align {
@@ -151,7 +163,7 @@ modal__bg {
 
 .modal__video-style {
   border-radius: 20px;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .modal__spinner {
@@ -204,9 +216,23 @@ modal__bg {
     border-radius: 50%;
     cursor: pointer;
     position: relative;
-    bottom: 35px;
+    bottom: 50px;
     width: 28px;
     height: 28px;
     padding: 0;
+    transform: translate(800%, 15%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .OVERLAY_STYLES {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    transform: translate(1%, 15%);
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
   }
 }

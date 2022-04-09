@@ -70,7 +70,7 @@ function Navbar() {
                 onClick={closeMobileMenu}
                 smooth={true}
                 offset={-80}
-                duration={500}
+                duration={2500}
               >
                 Portfolio
               </Link>

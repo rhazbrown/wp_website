@@ -8,11 +8,11 @@ import { IoCloseOutline } from "react-icons/io5";
 import { BiLoaderAlt } from "react-icons/bi";
 
 function HeroSection() {
-  const [modal, setModal] = useState(false);
+  const [modal, closeModal] = useState(true);
   const [videoLoading, setVideoLoading] = useState(true);
 
   const openModal = () => {
-    setModal(!modal);
+    closeModal(!modal);
   };
 
   const spinner = () => {
@@ -76,14 +76,17 @@ function HeroSection() {
           buttonSize="btn--large"
         >
           WATCH TRAILER <i className="far fa-play-circle" />
-          {modal ? (
+        </Button>
+
+        {!modal ? (
+          <div className="OVERLAY_STYLES">
             <section className="modal__bg">
               <div className="modal__align">
                 <div className="modal__content" modal={modal}>
                   <IoCloseOutline
                     className="modal__close"
                     arial-label="Close modal"
-                    onClick={setModal}
+                    onClick={closeModal}
                   />
                   <div className="modal__video-align">
                     {videoLoading ? (
@@ -110,8 +113,8 @@ function HeroSection() {
                 </div>
               </div>
             </section>
-          ) : null}
-        </Button>
+          </div>
+        ) : null}
       </div>
     </div>
   );

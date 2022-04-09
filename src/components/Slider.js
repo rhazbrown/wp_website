@@ -17,7 +17,7 @@ export default function Slider() {
       <div>
         <Swiper
           effect={"coverflow"}
-          grabCursor={true}
+          grabCursor={false}
           loop={true}
           centeredSlides={true}
           slidesPerView={"auto"}
