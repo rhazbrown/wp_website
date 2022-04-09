@@ -20,12 +20,7 @@ function HeroSection() {
   };
   return (
     <div className="hero-container" id="home">
-      <img
-        src="https://res.cloudinary.com/wprodigy/image/upload/v1649435369/Assets/hero_fwk24a.webp"
-        autoPlay
-        loop
-        muted
-      />
+      <img src="/images/hero.webp" alt="hero" />
       <div className="Headings">
         <h1>WP!</h1>
         <h2>

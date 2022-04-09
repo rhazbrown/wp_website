@@ -40,31 +40,31 @@ export default function Slider() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src="images/3.jpg" />
+            <img src="images/3.webp" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/4.jpg" />
+            <img src="images/4.webp" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/8.jpg" />
+            <img src="images/8.webp" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/9.jpg" />
+            <img src="images/9.webp" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/5.jpg" />
+            <img src="images/5.webp" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/6.jpg" />
+            <img src="images/6.webp" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/7.jpg" />
+            <img src="images/7.webp" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/1.jpg" />
+            <img src="images/1.webp" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/2.jpg" />
+            <img src="images/2.webp" />
           </SwiperSlide>
         </Swiper>
       </div>

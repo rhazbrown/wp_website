@@ -10,13 +10,13 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/education.jpg"
+              src="images/education.webp"
               text="Our agency pairs you with the best affordable schools in Europe and Canada. Germany, Norway, South and North Cyprus 50-100%"
               label="Study Abroad"
               path="/study-abroad"
             />
             <CardItem
-              src="images/graphic.png"
+              src="images/graphic.webp"
               text="Providing High-quality Custom Graphic Designs For an Extremely Affordable Price. Try it! Extremely Affordable, Fast Delivery (1-3 days), Customized for You. 14D Money-back Guarantee."
               label="Graphic Designs"
               path="/services"
@@ -24,13 +24,13 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/web.png"
+              src="images/web.webp"
               text="Trust our team with over 4 years experience. Developers, Designers, UX Experts and Marketers. Fast Delivery, Eco Packages from $800, Premium Photos, affordable Hosting and Support."
               label="Web development"
               path="/study-abroad"
             />
             <CardItem
-              src="images/writting.png"
+              src="images/writting.webp"
               text="Providing you with all types of high-quality writting from, thesis writting, movie scripts etc. Tailored to meet your need."
               label="All types of writting"
               path="/services"
