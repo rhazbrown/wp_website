@@ -20,7 +20,7 @@ function HeroSection() {
   };
   return (
     <div className="hero-container" id="home">
-      <img src="/images/hero.webp" alt="hero" />
+      <img src="/images/hero (1).webp" alt="hero" />
       <div className="Headings">
         <h1>WP!</h1>
         <h2>
