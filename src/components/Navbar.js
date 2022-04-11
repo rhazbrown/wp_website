@@ -32,7 +32,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link to="/" className="navbar-logo" onClick={scrollToTop}>
             <img
               src="images/wplogo.png"
               height="50px"
@@ -45,7 +45,7 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link1 to=" " className="nav-links" onClick={scrollToTop}>
+              <Link1 to=" " className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link1>
             </li>

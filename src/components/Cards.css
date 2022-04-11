@@ -127,3 +127,8 @@
     margin-bottom: 2rem;
   }
 }
+@media screen and (max-width: 960px) {
+  .cards__item__pic-wrap::after {
+    font-size: 15px;
+  }
+}

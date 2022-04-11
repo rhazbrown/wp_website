@@ -26,7 +26,7 @@ export default function Slider() {
             stretch: 0,
             depth: 700,
             modifier: 1,
-            slideShadows: true,
+            slideShadows: false,
           }}
           pagination={{
             clickable: true,
