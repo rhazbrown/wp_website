@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
@@ -9,13 +9,17 @@ import Design from "./components/pages/design";
 import Pricing from "./components/pages/pricing";
 import Study from "./components/pages/study";
 import Footer from "./components/Footer";
+import { AccountBox } from "./components/accountBox/signup";
+import { useLocation } from "react-router-dom";
 
 function App() {
+  const location = useLocation();
   return (
     <>
       <Router>
         <Navbar />
         <Routes>
+          <Route path="/Sign-Up" element={<AccountBox />} />
           <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Contact-Us" element={<ContactUs />} />

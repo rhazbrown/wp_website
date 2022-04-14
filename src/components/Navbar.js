@@ -117,9 +117,9 @@ function Navbar() {
               </Link1>
             </li>
           </ul>
-          <Link to="/Sign-Up " className="btn-mobile">
+          <Link1 to="/Sign-Up " className="btn-mobile">
             {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
-          </Link>
+          </Link1>
         </div>
       </nav>
     </>
