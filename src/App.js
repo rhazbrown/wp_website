@@ -26,7 +26,7 @@ function App() {
         <Route path="/Pricing" element={<Pricing />} />
         <Route path="/Study-Abroad" element={<Study />} />
       </Routes>
-      <Footer />
+      {pathname === "/Sign-Up" ? null : <Footer />}
     </>
   );
 }
