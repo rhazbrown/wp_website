@@ -10,10 +10,8 @@ import Pricing from "./components/pages/pricing";
 import Study from "./components/pages/study";
 import Footer from "./components/Footer";
 import { AccountBox } from "./components/accountBox/signup";
-import { useLocation } from "react-router-dom";
 
 function App() {
-  const location = useLocation();
   return (
     <>
       <Router>
