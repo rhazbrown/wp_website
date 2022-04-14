@@ -14,8 +14,6 @@ import Study from "./components/pages/study";
 function App() {
   const { pathname } = useLocation();
 
-  console.log({ pathname });
-
   return (
     <>
       {pathname === "/Sign-Up" ? null : <Navbar />}
